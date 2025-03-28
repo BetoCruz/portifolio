@@ -3,13 +3,14 @@ import {P} from './styles'
 // é possivel exportar os props para o styles.ts.
 export type Props = {
   children: string;
-  tipo?: 'principal' | 'secundario'
+  tipo?: 'principal' | 'secundario';
+  fontSize?: number;
 
 }
 
-const Paragrafo = ({ children, tipo = 'principal' }: Props) => {
+const Paragrafo = ({ children, tipo = 'principal', fontSize}: Props) => {
   return (
-      <P tipo = {tipo} >
+      <P fontSize={fontSize} tipo = {tipo} >
         {children}
       </P>
   )

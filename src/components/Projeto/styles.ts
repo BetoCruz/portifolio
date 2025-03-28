@@ -8,10 +8,10 @@ export const Card = styled.div`
 `;
 
 
-export const LinkBotoa = styled.a`
+export const LinkBotao = styled.a`
   color : #fff;
   font-size: 14px;
-  background-color: #4476BF
+  background-color: #4476BF;
   text-decoration: none;
   padding: 8px ;
   border-radius: 8px;

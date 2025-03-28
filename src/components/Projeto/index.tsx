@@ -1,7 +1,7 @@
 import Paragrafo from "../Paragrafo";
 import Titulo from "../Titulo";
 import {Card} from "./styles"; //styled é importado com {}
-import {LinkBotoa} from "./styles"; //styled é importado com {}
+import {LinkBotao} from "./styles"; //styled é importado com {}
 
 
 
@@ -13,7 +13,7 @@ const Projetos = () => (
     <Paragrafo tipo="secundario">
        Listade tarefas feita com VueJS
     </Paragrafo>
-    <LinkBotoa>Visualizar</LinkBotoa>
+    <LinkBotao>Visualizar</LinkBotao>
   </Card>
 )
 
